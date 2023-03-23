@@ -1,0 +1,200 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+/* 
+body {
+  background-color: rgb(50, 96, 114);
+} */
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.heroContainer {
+  background-image: url(Home\ page\ BW.jpg);
+  background-size: cover;
+  height: 90vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  text-align: left;
+}
+
+.heroContent {
+  border-radius: 10px;
+  color: white;
+  font-size: 35px;
+  padding: 0px 200px 10px 10px;
+  background-color: rgb(23, 57, 129);
+}
+.heroSubtitle {
+  margin-bottom: 20px;
+  font-size: 35px;
+}
+
+.heroButton {
+  display: block;
+  text-align: center;
+  padding: 10px;
+  background-color: rgb(199, 199, 199);
+  color: rgb(0, 0, 0);
+  border-radius: 10px;
+  margin-top: 20px;
+  width: 200px;
+}
+
+.heroButton:hover {
+  background-color: rgb(100, 100, 100);
+  color: rgb(255, 255, 255);
+}
+
+.helmetImage {
+  background: url(gasly_helmets.jpg) no-repeat center;
+  background-size: contain;
+  display: flex;
+  height: 500px;
+  width: 500px;
+}
+
+.helmetContent {
+  background-color: white;
+  font-size: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 50px;
+}
+
+.helmetButton {
+  background-color: rgb(199, 199, 199);
+  padding: 15px;
+  border-radius: 7px;
+  font-size: 25px;
+  margin-top: 30px;
+}
+
+.helmetButton:hover {
+  background-color: rgb(100, 100, 100);
+  color: rgb(255, 255, 255);
+}
+
+.helmetSection {
+  display: flex;
+  width: 75%;
+  margin: auto;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.helmetSubtext{
+  font-weight: normal;
+  font-size: 25px;
+  margin-top: 10px;
+}
+
+.bioImage {
+  background: url(gasly_bio.jpg) no-repeat center;
+  height: 500px;
+  width: 500px;
+}
+
+.bioSection {
+  display: flex;
+  width: 75%;
+  margin: auto;
+  justify-content: space-between;
+  margin-top: 150px;
+}
+
+.bioContent {
+  background-color: white;
+  font-size: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 50px;
+}
+
+.bioButton {
+  background-color: rgb(199, 199, 199);
+  padding: 15px;
+  border-radius: 7px;
+  font-size: 25px;
+  margin-top: 30px;
+}
+
+.bioButton:hover {
+  background-color: rgb(100, 100, 100);
+  color: rgb(255, 255, 255);
+}
+
+.bioSubtext{
+  font-weight: normal;
+  font-size: 25px;
+  margin-top: 10px;
+}
+
+.footer {
+  background-color: rgb(23, 57, 129);
+  padding: 50px;
+  margin-top: 50px;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+}
+
+.podiumImage {
+  background: url(podiumpic.jpg) no-repeat center;
+  background-size: contain;
+  display: flex;
+  height: 500px;
+  width: 500px;
+}
+
+.podiumContent {
+  background-color: white;
+  font-size: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 50px;
+}
+
+.podiumButton {
+  background-color: rgb(199, 199, 199);
+  padding: 15px;
+  border-radius: 7px;
+  font-size: 25px;
+  margin-top: 30px;
+}
+
+.podiumButton:hover {
+  background-color: rgb(100, 100, 100);
+  color: rgb(255, 255, 255);
+}
+
+.podiumSection {
+  display: flex;
+  width: 75%;
+  margin: auto;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+
+.podiumSubtext{
+  font-weight: normal;
+  font-size: 25px;
+  margin-top: 10px;
+}

@@ -1,0 +1,194 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+  
+a {
+  color: black;
+  text-decoration: none;
+}
+
+
+.alpineSection {
+  display: flex;
+  width: 75%;
+  margin: auto;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+  
+.alpineContent{
+  background-color: white;
+  font-size: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 50px;
+}
+
+.alpineImage{
+  background: url(alpine_gasly.jpg) no-repeat center;
+  width: 500px;
+  height: 500px;
+  background-size: contain;
+}
+
+.alphaTauriSection {
+  display: flex;
+  width: 75%;
+  margin: auto;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+  
+.alphaTauriContent{
+  background-color: white;
+  font-size: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 50px;
+}
+
+.alphaTauriImage{
+  background: url(AT22.jpg) no-repeat center;
+  width: 500px;
+  height: 500px;
+  background-size: contain;
+}
+
+.alphaTauri2Section {
+  display: flex;
+  width: 75%;
+  margin: auto;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+  
+.alphaTauri2Content{
+  background-color: white;
+  font-size: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 50px;
+}
+
+.alphaTauri2Image{
+  background: url(AT21.jpg) no-repeat center;
+  width: 500px;
+  height: 500px;
+  background-size: contain;
+}
+
+.alphaTauri3Section {
+  display: flex;
+  width: 75%;
+  margin: auto;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+  
+.alphaTauri3Content{
+  background-color: white;
+  font-size: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 50px;
+}
+
+.alphaTauri3Image{
+  background: url(AT20.jpg) no-repeat center;
+  width: 500px;
+  height: 500px;
+  background-size: contain;
+}
+
+.toroRossoSection {
+  display: flex;
+  width: 75%;
+  margin: auto;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+  
+.toroRossoContent{
+  background-color: white;
+  font-size: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 50px;
+}
+
+.toroRossoImage{
+  background: url(TR19.jpg) no-repeat center;
+  width: 500px;
+  height: 500px;
+  background-size: contain;
+}
+
+.redBullSection {
+  display: flex;
+  width: 75%;
+  margin: auto;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+  
+.redBullContent{
+  background-color: white;
+  font-size: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 50px;
+}
+
+.redBullImage{
+  background: url(RB19.jpg) no-repeat center;
+  width: 500px;
+  height: 500px;
+  background-size: contain;
+}
+
+.toroRosso2Section {
+  display: flex;
+  width: 75%;
+  margin: auto;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+  
+.toroRosso2Content{
+  background-color: white;
+  font-size: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 50px;
+}
+
+.toroRosso2Image{
+  background: url(TR18.png) no-repeat center;
+  width: 500px;
+  height: 500px;
+  background-size: contain;
+}

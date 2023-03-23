@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(23, 57, 129);
+  padding: 15px;
+}
+
+.tabs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tabs a {
+  margin: 0 30px 0 30px;
+  color: white;
+
+  font-size: 20px;
+  transition: all 0.3s;
+}
+
+.tabs a:hover {
+  font-weight: bold;
+  font-size: 22px;
+}
+
+#pg-logo {
+  width: 60px;
+}
