@@ -14,8 +14,20 @@ a {
   text-decoration: none;
 }
 
-.heroContainer {
-  background-image: url(Home\ page\ BW.jpg);
+.heroCarousel {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  align-items: flex-end;
+  text-align: left;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.bioSlide {
+  background-image: url(bio.jpg);
   background-size: cover;
   height: 90vh;
   width: 100%;
@@ -26,11 +38,81 @@ a {
   text-align: left;
 }
 
-.heroContent {
+.statsSlide {
+  background-image: url(stats.jpg);
+  background-size: cover;
+  height: 90vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  text-align: left;
+}
+
+.helmetsSlide {
+  background-image: url(helmets.jpg);
+  background-size: cover;
+  height: 90vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: left;
+}
+
+.altSlideContent {
+  padding: 0px 10px 10px 200px;
   border-radius: 10px;
   color: white;
   font-size: 35px;
+  background-color: rgb(23, 57, 129);
+  text-align: right;
+}
+
+.heroAltButton {
+  display: block;
+  text-align: center;
+  padding: 10px;
+  background-color: rgb(199, 199, 199);
+  color: rgb(0, 0, 0);
+  border-radius: 10px;
+  margin-top: 20px;
+  width: 200px;
+  margin-left: 200px;
+}
+
+.podiumSlide {
+  background-image: url(podium.jpg);
+  background-size: cover;
+  height: 90vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: left;
+}
+
+.slide {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  transition: all 0.5s;
+}
+
+.slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.slideContent {
   padding: 0px 200px 10px 10px;
+  border-radius: 10px;
+  color: white;
+  font-size: 35px;
   background-color: rgb(23, 57, 129);
 }
 .heroSubtitle {
@@ -94,7 +176,7 @@ a {
   margin-top: 50px;
 }
 
-.helmetSubtext{
+.helmetSubtext {
   font-weight: normal;
   font-size: 25px;
   margin-top: 10px;
@@ -138,7 +220,7 @@ a {
   color: rgb(255, 255, 255);
 }
 
-.bioSubtext{
+.bioSubtext {
   font-weight: normal;
   font-size: 25px;
   margin-top: 10px;
@@ -193,7 +275,7 @@ a {
   margin-top: 100px;
 }
 
-.podiumSubtext{
+.podiumSubtext {
   font-weight: normal;
   font-size: 25px;
   margin-top: 10px;
