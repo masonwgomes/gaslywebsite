@@ -4,10 +4,12 @@
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
 }
-/* 
+
 body {
-  background-color: rgb(50, 96, 114);
-} */
+  background: url(white-bg.jpg) no-repeat;
+  background-attachment: fixed;
+  backdrop-filter: blur(5px) brightness(30%);
+}
 
 a {
   color: black;
