@@ -20,7 +20,7 @@ a {
 }
   
 .alpineContent{
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0);
   font-size: 25px;
   display: flex;
   flex-direction: column;
@@ -28,6 +28,7 @@ a {
   align-items: center;
   text-align: center;
   margin: 50px;
+  color: white;
 }
 
 .alpineImage{
@@ -46,7 +47,7 @@ a {
 }
   
 .alphaTauriContent{
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0);
   font-size: 25px;
   display: flex;
   flex-direction: column;
@@ -54,6 +55,7 @@ a {
   align-items: center;
   text-align: center;
   margin: 50px;
+  color: white;
 }
 
 .alphaTauriImage{
@@ -72,7 +74,7 @@ a {
 }
   
 .alphaTauri2Content{
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0);
   font-size: 25px;
   display: flex;
   flex-direction: column;
@@ -80,6 +82,7 @@ a {
   align-items: center;
   text-align: center;
   margin: 50px;
+  color: white;
 }
 
 .alphaTauri2Image{
@@ -98,7 +101,7 @@ a {
 }
   
 .alphaTauri3Content{
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0);
   font-size: 25px;
   display: flex;
   flex-direction: column;
@@ -106,6 +109,7 @@ a {
   align-items: center;
   text-align: center;
   margin: 50px;
+  color: white;
 }
 
 .alphaTauri3Image{
@@ -124,7 +128,7 @@ a {
 }
   
 .toroRossoContent{
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0);
   font-size: 25px;
   display: flex;
   flex-direction: column;
@@ -132,6 +136,7 @@ a {
   align-items: center;
   text-align: center;
   margin: 50px;
+  color: white;
 }
 
 .toroRossoImage{
@@ -150,7 +155,7 @@ a {
 }
   
 .redBullContent{
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0);
   font-size: 25px;
   display: flex;
   flex-direction: column;
@@ -158,6 +163,7 @@ a {
   align-items: center;
   text-align: center;
   margin: 50px;
+  color: white;
 }
 
 .redBullImage{
@@ -176,7 +182,7 @@ a {
 }
   
 .toroRosso2Content{
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0);
   font-size: 25px;
   display: flex;
   flex-direction: column;
@@ -184,6 +190,7 @@ a {
   align-items: center;
   text-align: center;
   margin: 50px;
+  color: white;
 }
 
 .toroRosso2Image{

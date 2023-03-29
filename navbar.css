@@ -39,3 +39,8 @@ a {
 #pg-logo {
   width: 60px;
 }
+
+.navbarText{
+  color: white;
+  font-weight: bold;
+}
