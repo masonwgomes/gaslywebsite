@@ -20,7 +20,7 @@ a {
 }
 
 .brazilContent {
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0);
   font-size: 25px;
   display: flex;
   flex-direction: column;
@@ -28,6 +28,7 @@ a {
   align-items: center;
   text-align: center;
   margin: 50px;
+  color: white;
 }
 
 .brazilSection {
@@ -51,6 +52,7 @@ a {
   padding: 30px;
   border-radius: 10px;
   margin: 15px;
+  color: black;
 }
 
 .monzaImage {
@@ -62,7 +64,7 @@ a {
 }
 
 .monzaContent {
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0);
   font-size: 25px;
   display: flex;
   flex-direction: column;
@@ -70,6 +72,7 @@ a {
   align-items: center;
   text-align: center;
   margin: 50px;
+  color: white;
 }
 
 .monzaSection {
@@ -92,6 +95,7 @@ a {
   padding: 30px;
   border-radius: 10px;
   margin: 15px;
+  color: black;
 }
 
 .azerbaijanImage {
@@ -103,7 +107,7 @@ a {
 }
 
 .azerbaijanContent {
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0);
   font-size: 25px;
   display: flex;
   flex-direction: column;
@@ -111,6 +115,7 @@ a {
   align-items: center;
   text-align: center;
   margin: 50px;
+  color: white;
 }
 
 .azerbaijanSection {
@@ -133,4 +138,5 @@ a {
   padding: 30px;
   border-radius: 10px;
   margin: 15px;
+  color: black;
 }
