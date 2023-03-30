@@ -44,7 +44,8 @@ a {
 .brazilDescription {
   font-size: 20px;
   font-weight: normal;
-  margin-bottom: 250px;
+  margin-bottom: 100px;
+  font-style: italic;
 }
 
 .brazilSubtext {
@@ -88,6 +89,7 @@ a {
 .monzaDescription {
   font-size: 20px;
   font-weight: normal;
+  font-style: italic;
 }
 
 .monzaSubtext {
@@ -104,6 +106,7 @@ a {
   height: 350px;
   width: auto;
   align-items: center;
+  margin: 50px;
 }
 
 .azerbaijanContent {
@@ -114,7 +117,7 @@ a {
   justify-content: center;
   align-items: center;
   text-align: center;
-  margin: 50px;
+  margin-bottom: 50px;
   color: white;
 }
 
@@ -124,13 +127,14 @@ a {
   margin: auto;
   justify-content: center;
   align-items: center;
-  margin-top: 200px;
+  margin-top: 50px;
   flex-direction: column;
 }
 
 .azerbaijanDescription {
   font-size: 20px;
   font-weight: normal;
+  font-style: italic;
 }
 
 .azerbaijanSubtext {

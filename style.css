@@ -142,7 +142,7 @@ a {
 
 .heroSubtitle {
   margin-bottom: 20px;
-  font-size: 35px;
+  font-size: 25px;
 }
 
 .heroButton {
@@ -161,6 +161,32 @@ a {
   color: rgb(255, 255, 255);
 }
 
+.recentNews {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0px 50px 0px;
+  color: white;
+  width: 750px;
+}
+
+.titleNews{
+  font-size: 40px;
+}
+
+.infoNews{
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.newsContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .helmetImage {
   background: url(gasly_helmets.jpg) no-repeat center;
   background-size: contain;
@@ -170,7 +196,6 @@ a {
 }
 
 .helmetContent {
-  background-color: rgba(255, 255, 255, 0);
   font-size: 25px;
   display: flex;
   flex-direction: column;
@@ -223,7 +248,6 @@ a {
 }
 
 .bioContent {
-  background-color: rgba(255, 255, 255, 0);
   font-size: 25px;
   display: flex;
   flex-direction: column;
@@ -272,7 +296,6 @@ a {
 }
 
 .podiumContent {
-  background-color: rgba(255, 255, 255, 0);
   font-size: 25px;
   display: flex;
   flex-direction: column;

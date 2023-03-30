@@ -26,3 +26,23 @@ nextBtn.addEventListener("click", moveSlides);
 setInterval(() => {
   moveSlides();
 }, 15000);
+
+
+
+
+
+
+
+prevBtn.addEventListener("click", prevSlides);
+
+function prevSlides() {
+  if (currentSlide === maxSlide) {
+    currentSlide = 0;
+  } else {
+    currentSlide--;
+  }
+
+  slides.forEach((slide, index) => {
+    slide.style.transform = `translateX(${100 * (index - currentSlide)}%)`;
+  });
+}
