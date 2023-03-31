@@ -10,6 +10,12 @@ a {
   text-decoration: none;
 }
 
+body {
+  background: url(white-bg.jpg) no-repeat;
+  background-attachment: fixed;
+  backdrop-filter: blur(5px) brightness(30%);
+}
+
 .brazilImage {
   background-size: contain;
   display: flex;
