@@ -37,7 +37,7 @@ body {
 }
 
 .alpineImage{
-  background: url(alpine_gasly.jpg) no-repeat center;
+  background: url(alpine_gasly.png) no-repeat center;
   width: 500px;
   height: 500px;
   background-size: contain;
@@ -64,7 +64,7 @@ body {
 }
 
 .alphaTauriImage{
-  background: url(AT22.jpg) no-repeat center;
+  background: url(AT22.png) no-repeat center;
   width: 500px;
   height: 500px;
   background-size: contain;
@@ -91,7 +91,7 @@ body {
 }
 
 .alphaTauri2Image{
-  background: url(AT21.jpg) no-repeat center;
+  background: url(AT21.png) no-repeat center;
   width: 500px;
   height: 500px;
   background-size: contain;
@@ -118,7 +118,7 @@ body {
 }
 
 .alphaTauri3Image{
-  background: url(AT20.jpg) no-repeat center;
+  background: url(AT20.png) no-repeat center;
   width: 500px;
   height: 500px;
   background-size: contain;
@@ -145,7 +145,7 @@ body {
 }
 
 .toroRossoImage{
-  background: url(TR19.jpg) no-repeat center;
+  background: url(TR19.png) no-repeat center;
   width: 500px;
   height: 500px;
   background-size: contain;
@@ -172,7 +172,7 @@ body {
 }
 
 .redBullImage{
-  background: url(RB19.jpg) no-repeat center;
+  background: url(RB19.png) no-repeat center;
   width: 500px;
   height: 500px;
   background-size: contain;
